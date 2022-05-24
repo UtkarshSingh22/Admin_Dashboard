@@ -14,7 +14,7 @@ body{
     gap: 5px;
     padding: 30px;
     font-size: 23px;
-    background-color: pink;
+    background-color: #438860;
     height: 100vh;
 }
 .header{
@@ -91,6 +91,7 @@ body{
 a{
     align-self: center;
     text-decoration: none;
+    color: white;
 }
 .name{
     width: 60px;
@@ -101,7 +102,7 @@ a{
     grid-template: 1fr 1fr 1fr/ repeat(2, 1fr) 2fr 4fr 6fr 1fr 2fr repeat(4, 1fr) 2fr;
     padding: 0 40px;
     padding-top: 10px;
-    background-color:aquamarine;
+    background-color:#ffb8b0;
 }
 .magnify{
     width: 30px;
@@ -173,7 +174,7 @@ button{
 .rightbar{
     padding: 10px;
     padding-right: 40px;
-    background-color:darkgrey;
+    background-color:white;
 }
 .ann, .a, .trend{
     font-size: 20px;
@@ -216,17 +217,20 @@ button{
 .content{
     display: grid;
     grid-template: 1fr 10fr / 1fr;
-    background-color:burlywood;
+    background-color:white;
 }
 .project{
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 0%;
     font-size: 20px;
     margin-top: 0;
 }
 .box{
     border: 2px solid black;
-    padding: 20px;
+    padding: 5px 20px;
     margin: 20px;
+    margin-top: 0%;
     display: grid;
     grid-template: repeat(3,1fr) / 1fr repeat(3,0.3fr);
 }
