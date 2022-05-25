@@ -14,8 +14,8 @@ body{
     gap: 5px;
     padding: 30px;
     font-size: 23px;
-    background-color: #438860;
-    height: 100vh;
+    background-color: #28a899;
+    
 }
 .header{
     grid-column: 2 / 4;
@@ -102,7 +102,9 @@ a{
     grid-template: 1fr 1fr 1fr/ repeat(2, 1fr) 2fr 4fr 6fr 1fr 2fr repeat(4, 1fr) 2fr;
     padding: 0 40px;
     padding-top: 10px;
-    background-color:#ffb8b0;
+    background-color:white;
+    box-shadow: 5px 2px 10px 10px rgb(182, 212, 203);
+    margin-bottom: 10px;
 }
 .magnify{
     width: 30px;
@@ -114,6 +116,7 @@ input{
     border-radius: 20px;
     align-self: center;
     font-size: 25px;
+    background-color: rgb(207, 235, 229);
 }
 .bell{
     grid-column: 8/9;
@@ -170,11 +173,13 @@ button{
     height: 40px;
     border-radius: 30px;
     font-size: 25px;
+    background-color: #28a899;
+    color: white;
 }
 .rightbar{
     padding: 10px;
     padding-right: 40px;
-    background-color:white;
+    background-color:rgb(207, 235, 229);
 }
 .ann, .a, .trend{
     font-size: 20px;
@@ -217,7 +222,7 @@ button{
 .content{
     display: grid;
     grid-template: 1fr 10fr / 1fr;
-    background-color:white;
+    background-color:rgb(207, 235, 229);
 }
 .project{
     padding-top: 20px;
@@ -227,12 +232,15 @@ button{
     margin-top: 0;
 }
 .box{
-    border: 2px solid black;
+    border-left : 10px solid #581c87;
     padding: 5px 20px;
     margin: 20px;
     margin-top: 0%;
     display: grid;
     grid-template: repeat(3,1fr) / 1fr repeat(3,0.3fr);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 6px rgb(170, 187, 183);
 }
 .main-cont{
     display: grid;
